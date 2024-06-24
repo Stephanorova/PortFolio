@@ -1,0 +1,191 @@
+.navebare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: #022c43;
+    width: 100%;
+    font-family: "Gumela";
+    height: 90px;
+    gap: 1rem;
+    position: relative;
+    
+    ul{
+        display: flex;
+        gap: 2rem;
+   
+        li{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            cursor: pointer;
+
+            &:hover{
+                color: #ffff00;
+            }
+        }
+
+        
+        .menus{
+            position: relative;
+            right: 16rem;
+            top: 0.5rem;
+        }
+
+        .buttoncontacte{
+            position: relative;
+            top: 0.5rem;
+            left: 13rem;
+            width: 100px;
+            height: 40px;
+            border: 1px solid #ffff00;
+            border-radius: 50px;
+
+        }
+       
+    }
+
+    .logo{
+        position: absolute;
+        left: 3rem;
+        width: 50px;
+        height: 50px;
+        background: #ffff00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #21325e;
+        border: 1px solid wheat;
+        
+        h2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+    }
+   
+}
+.open,.close{
+    display: none;
+}
+.quiter{
+   display: none;
+}
+
+
+
+@media (max-width:480px) {
+    .navebare{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+        background-color: #022c43;
+        width: 100%;
+        font-family: "Gumela";
+        height: 90px;
+        cursor: pointer;
+        position: relative;
+
+       .nonresponsive{
+            display: none;
+        }
+       .responsive{
+            position: absolute;
+            right:  0;
+            top: 0;
+            box-shadow: 2px 7px 7px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: 210vh;
+            background-color: #022c43;
+            z-index: 888;
+            display: flex;
+            flex-direction: column;
+            transition: all 3s ease-in-out;
+            color: white;
+                       
+            ul{
+                
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                gap: 3rem;
+                top: 5rem;
+                margin: 30px;
+                left: 5rem;
+                align-items: center;
+                justify-content: center;
+                 li{
+                    list-style-type: none; 
+                    display: flex;
+                    flex-direction: column;
+                    
+                   
+                 }
+
+                 .menus{
+                    display: block;
+                    position: relative;
+                    top: 10rem;
+                    left: 2rem;
+                    font-size: 20px;
+                }
+        
+                .buttoncontacte{
+                    position: relative;
+                    top: 9rem;
+                    left: 2rem;
+                }
+            }
+          
+        
+    
+         }
+         
+       
+        .logo{
+            position: absolute;
+            left: 3rem;
+            width: 40px;
+            height: 40px;
+            background: #ffff00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: #21325e;
+            border: 1px solid wheat;
+            
+            h2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+    .quiter{
+        display: block;
+        position: absolute; 
+        left: 12.5rem;
+        top: -5.5rem;
+        cursor: pointer;
+        font-size: 40px;
+        color: white;
+    }
+      .open{
+        display: block;
+        position: relative; 
+        left: 7rem;
+        cursor: pointer;
+        font-size: 40px;
+        color: white;
+    }
+}

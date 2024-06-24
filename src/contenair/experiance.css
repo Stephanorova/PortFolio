@@ -1,0 +1,45 @@
+.experiance{
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background-color:  #022c43;
+    color: white;
+    opacity: 0;
+    animation: fadeIn 1s 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.expa{
+    background-color:  #115163!important;
+    color: white !important;
+    border: none !important;
+}
+
+@media ( max-width:480px) {
+    .experiance{
+        display: flex;
+        text-align: center;
+        margin: 0;
+        opacity: 0;
+        animation: fadeIn 1s 1s;
+        animation-fill-mode: forwards;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+       
+        .expa{
+            background-color:  #115163!important;
+            color: white !important;
+            border: none !important;
+            width: 100% !important;
+        }
+    
+        
+       
+    }
+    
+}

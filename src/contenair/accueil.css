@@ -1,0 +1,458 @@
+.accueil{
+    background-color: #022c43;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    height: 50vh;  
+    display: flex;
+   
+}
+.titre{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 80px 0 0 0;  
+    font-family:"Arial",sans-serif;
+  
+}
+.bonjour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 15.5rem;
+    top: -3rem;
+    font-size: 13px;
+    color: rgb(155, 155, 155);
+    opacity: 0;
+    animation: fadeIn 1s 1s;
+    animation-fill-mode: forwards;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    p{
+        opacity: 0;
+    }
+} 
+
+.nom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -6.5rem;
+    position: relative;
+
+ }
+ .nom1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    position: relative;
+    right: 12rem;
+    
+
+ }
+ .patien{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 6.5rem;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 400px;
+    height: 150px;
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #022c43;
+    height: 40px;
+    position: relative;
+    left: 6rem;
+    top: 0.55rem;
+    width: 140px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 2px 7px 0px black;
+    color: #fff;
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+    border: 1px solid #ffff00;
+
+    &:hover{
+        color: #ffff00;
+    }
+}
+.lefte2{
+    display: flex;
+    position: relative;
+    right: 2rem;
+}
+.image{
+    flex: 1;
+    position: relative;
+    
+}
+ .reseauxsocial{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    left: 4rem;
+    top: 18rem;
+    opacity: 0;
+    animation: fadeIn 1s 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    
+    .lines{
+        width: 0.5px;
+        height: 10rem;
+        background-color: #ffff00;
+        position: absolute;
+        top: -11rem;
+        left: 10px;
+        opacity: 0;
+        animation: bounceIn 1s 1s;
+        animation-fill-mode: forwards;
+    }
+} 
+.imageBox{
+    right: 12rem;
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+    border-radius: 100%;
+    background-color: #022c43;
+    border-left: 1px solid #ffff00;
+    top: 2rem;
+}
+
+.cercle1 {
+    top: -1rem;
+    left: 7rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cercle2{
+    top: 12rem;
+    left: -0.5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+
+}
+.cercle3{
+    top: 7rem;
+    left: 7rem;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 2px 7px 0px black;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 1px solid #ffff00;
+
+    
+}
+.cercle4{
+    top: 16.5rem;
+    left: 7.5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: tomato;
+ 
+
+ 
+}
+.cercle5{
+    top: 4rem;
+    left: -0.5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+  
+}
+ 
+
+
+.leflfte{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15rem;
+    right: 1rem;
+}
+.line{
+    width: 0.5px;
+    height: 20rem;
+    background-color: #ffff00;
+    position: relative;
+    bottom: 4rem;
+    left: 2px;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+}
+.lettre{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 5rem;
+    font-size: 10px;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+}
+.footera{
+    opacity: 0;
+}
+
+@media (max-width:480px) {
+
+    .accueil{
+        background-color: #022c43;
+        color: white;
+        width: 100%;
+        height: 95vh;  
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: -100px;
+        
+    }
+    .titre{
+        
+        display: flex;
+        align-items: normal;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -60px;
+        gap: 2rem;
+        padding: 40px;
+        font-family:"Arial",sans-serif;
+    }
+    .bonjour{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        gap: 0.5rem;
+        left: -5rem;
+        top: 1rem;
+        font-size: 13px;
+        opacity: 0;
+        animation: fadeIn 1s 1s;
+        animation-fill-mode: forwards;
+
+        p{
+            opacity: 1;
+            position: relative;
+            top: 0.5rem;
+        }
+    } 
+    .bonjour2{
+        opacity: 1;
+    }
+  .nom{
+    display: none;
+  }
+  .nom1{
+    font-size: 12px;
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+  }
+     .patien{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -0.5rem;
+        top: 2rem;
+        font-size: 12px;
+        width: 280px;
+        height: 30px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .download{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background: #022c43;
+        height: 30px;
+        position: relative;
+        left: -5.5rem;
+        top: 2rem;
+        width: 110px;
+        font-size: 12px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 2px 7px 0px black;
+        color: #fff;
+        opacity: 0;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+        border: 1px solid #ffff00;
+
+        &:hover{
+            color: #ffff00;
+        }
+    }
+
+    .lefte2{
+        display: flex;
+        position: relative;
+        top: 4rem;
+    }
+    .image{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          top: 5rem;
+    }
+    .imageBox{
+        
+        width: 16rem;
+        height: 16rem;
+        position: relative;
+        border-radius: 100%;
+        background-color: #022c43;
+        top: -10rem;
+        left: 2.5rem;
+    }
+    
+    .cercle1 {
+        top: -1rem;
+        left: 6rem;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+
+    }
+    .cercle2{
+        top: 11rem;
+        left: -0.2rem;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: blue;
+
+     
+    }
+    .cercle3{
+        top: 6rem;
+        left: 6rem;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        box-shadow: 0px 2px 7px 0px rgb(119, 119, 119);
+        border: 1px solid gray;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+
+        &:hover{
+            color: #ffff00;
+            border: 1px solid #ffff00;
+        }
+    }
+    .cercle4{
+        top: 14.5rem;
+        left: 6rem;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: tomato;
+
+    }
+    .cercle5{
+        top: 3.5rem;
+        left: -0.5rem;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: blue;
+
+        
+    }
+ 
+   
+    .leflfte{
+       top: -4rem;
+       left: 1.5rem;
+        
+    }
+  
+.experience{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: 6.5rem;
+    background-color: #022c43;
+    font-size: 12px;
+    height: 40px;
+    width: 120px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 2px 7px 0px black;
+
+    &:hover{
+        color: #ffff00;
+        border: 1px solid #ffff00;
+    }
+}
+.line{
+    width: 0.5px;
+    height: 10rem;
+    background-color: #ffff00;
+    position: relative;
+    bottom: 4.5rem;
+    left: 2px;
+}
+.reseauxsocial{
+    display: none;
+}
+.footera{
+    opacity: 1;
+}
+}
