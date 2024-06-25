@@ -20,7 +20,6 @@ const history = useHistory()
       <div className="logo32"></div>
       <div className={mobil ? "responsive" : "nonresponsive"}>
        <ul onClick={()=>setMobil(false)}>
-       <i className='quiter'><CloseIcons/></i>
         <li onClick={()=>history.push("/")} className='menus'>
               Accueil
             </li>
