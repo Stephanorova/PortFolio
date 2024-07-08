@@ -18,11 +18,10 @@ const Prenom = ['R','o','v','a','n','i','a','i','n','a','  ','S','t','e','p','h'
 
 
   return (
-    <>
+
     <div className='accueil'>
-       <span className='bonjour'>Bonjour, <p>je m'appelle</p></span>      
         <div className="titre">
-                 
+        <span className='bonjour'>Bonjour,</span>   
            <div className="nom"> 
              {
               Nom.map((char)=>(
@@ -33,7 +32,7 @@ const Prenom = ['R','o','v','a','n','i','a','i','n','a','  ','S','t','e','p','h'
              <div className="nom1">
              {
               Prenom.map((char)=>(
-                <h2 className={`${calsList} _15`}>{char}</h2>
+                <h4 className={`${calsList} _15`}>{char}</h4>
               ))
              }
                </div>
@@ -42,12 +41,11 @@ const Prenom = ['R','o','v','a','n','i','a','i','n','a','  ','S','t','e','p','h'
             <span >Je suis développeur passionner dans le language de programmation javaScript, notament dans les framwork nodejs, Expressjs, Reactjs et d'autre outille
               qui les entoures
             </span>
-            </div>
-            <div >
               <a href={rovaniaina} download >
-              <button className="download">Télécharger CV</button>
+              <label className="download">Télécharger CV</label>
               </a>
-            </div> 
+            </div>
+            
         </div>
         
         <div className='reseauxsocial' >
@@ -101,10 +99,6 @@ const Prenom = ['R','o','v','a','n','i','a','i','n','a','  ','S','t','e','p','h'
         </div>
         </div>  
     </div>
-   <div className="footera">
-    <Footer/>
-   </div>
-    </>
   )
 }
 

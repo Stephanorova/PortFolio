@@ -26,6 +26,11 @@ const Autres = () => {
             </div>
         </AccordionDetails>
       </Accordion>
+      <div>
+              <a href={rovaniaina} download >
+              <label className="downloade">Télécharger CV</label>
+              </a>
+      </div>
     </div>
   )
 }
