@@ -15,9 +15,6 @@ const Footer = () => {
                <a href="https://www.facebook.com/Niaina_Stephano" target='_blank' rel='noopener noreferrer' style={{color:"white",cursor:"pointer"}}> <FacebookIcons style={{fontSize:"40px"}}/></a>
             </div>
             <div className="mail">
-                <div className="titre">
-                  <h4>Mon Contact</h4>
-                </div>
                 <div className="infoline">
                   <span><a href="mailto:rovaniainarakotozandry@gmail.com" target='_blank' rel='noopener noreferrer'  style={{color:"white"}}>rovaniainarakotozandry2@gmail.com  </a></span>
                   <span style={{display:"flex", alignItems:"center"}}>

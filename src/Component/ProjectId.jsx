@@ -17,8 +17,9 @@ const history = useHistory()
       
       <div className='dataID'>
         <img src={projectid.image} alt="img" className='image' />
-        <span className='nameID'>{projectid.techno}</span>
+        <span className='nameID'>{projectid.techno}
         <a href='' className='url'>{projectid.url}</a>
+        </span>
      </div>
     
     <button className='retour' onClick={()=>history.push("/projet")}><ReplyOutlinedIcons/></button>

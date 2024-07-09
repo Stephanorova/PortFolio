@@ -12,7 +12,7 @@ import Footer from './Footer'
 const Accueile = () => {
 
 const[calsList,setClalist] = useState('animationText')
-const Nom = ['JE',' ',"M '",'A','P','P','E','LL','E',' ','R','A','K','O','T','O','Z','A','N','D','R','Y']
+const Nom = ['JE',"", "M'"," " ,'A','P','P','E','LL','E',' ','R','A','K','O','T','O','Z','A','N','D','R','Y']
 const Prenom = ['R','o','v','a','n','i','a','i','n','a','  ','S','t','e','p','h','a','n','o']
 
 

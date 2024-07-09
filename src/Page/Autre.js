@@ -11,7 +11,9 @@ const Autre = () => {
         <div className='file'>
         <Autres/>
         </div>
+        <div className='foote'>
         <Footer/>
+        </div>
     </div>
   )
 }

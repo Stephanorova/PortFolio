@@ -19,7 +19,7 @@
 .bonjour{
     display: flex;
     align-items: center;
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(155, 155, 155);
     opacity: 0;
     animation: fadeIn 1s 1s;
@@ -35,18 +35,20 @@
     display: flex;
     align-items: center;
     color: #ffff00;
+    font-size: 22px;
  }
  .nom1 {
     display: flex;
     align-items: center;
-    color: #9b9b5a;
+    color: #ffff009d;
+    font-size: 20px;
  }
  .patien{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     gap: 1rem;
-    font-size: 15px;
+    font-size: 16px;
     width: 400px;
     height: 150px;
     opacity: 0;
@@ -80,8 +82,8 @@
 }
 .lefte2{
     display: flex;
-    margin-right: 9rem;
-    margin-top: 30px;
+    margin-right: 7rem;
+    margin-top: 32px;
     position: fixed;
     right: 0;
 }
@@ -96,7 +98,7 @@
     gap: 1rem;
     position: absolute;
     margin-left: 4rem;
-    top: 18rem;
+    top: 31rem;
     opacity: 0;
     animation: fadeIn 1s 1s;
     animation-fill-mode: forwards;
@@ -122,7 +124,7 @@
     border-radius: 100%;
     background-color: #022c43;
     border-left: 1px solid #ffff00;
-    top: 2rem;
+    top: -2rem;
 }
 
 .cercle1 {
@@ -187,7 +189,7 @@
 .leflfte{
     display: flex;
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 18rem;
 }
 .line{
     width: 0.5px;
@@ -195,7 +197,7 @@
     background-color: #ffff00;
     position: relative;
     bottom: 4rem;
-    left: 2px;
+    left: 4.2rem;
     opacity: 0;
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
@@ -206,10 +208,13 @@
     flex-direction: column;
     bottom: 5rem;
     font-size: 10px;
+    left: 4rem;
     opacity: 0;
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
 }
+
+
 
 
 @media (max-width:480px) {
@@ -227,15 +232,20 @@
         margin-right: 16rem;
       }
       .nom{
-       h3{
-            font-size: 14px;
+         h3{
+           font-size: 16px;
+         }
+      }
+      .nom1{
+        h4{
+            font-size: 17px;
         }
       }
       .patien{
         width: 90%;
         display: flex;
         flex-direction: column;
-        font-size: 13px;
+        font-size: 14px;
       }
       .download{
         display: none;
@@ -244,7 +254,7 @@
 
     .lefte2{
         display: flex;
-        margin-top: 8rem;
+        margin-top: 11rem;
         left: 2rem;
     }
     .image{
@@ -368,10 +378,13 @@
     left: 2px;
 }
 .reseauxsocial{
-  margin-top: 35rem;
+  margin-top: 17rem;
   right: 7rem;
   display: flex;
   flex-direction: row;
+  opacity: 0;
+  animation: fadeInUp 2s 2s;
+  animation-fill-mode: forwards;
 
 }
 .lines{
