@@ -53,7 +53,7 @@ const Experiance = () => {
         <span>Base de donné</span>
         </AccordionSummary>
         <AccordionDetails>
-        <span> MongoDb, Mysql, PostgresSql, PowerBI, Access</span>
+        <span> MongoDb, Mysql, PowerBI, Access</span>
         </AccordionDetails>
       </Accordion>
       <Accordion className='expa' defaultExpanded>
@@ -62,6 +62,14 @@ const Experiance = () => {
         </AccordionSummary>
         <AccordionDetails>
         <span>UML, MERISE</span>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className='expa' defaultExpanded>
+        <AccordionSummary expandIcon={<ExpandMoreIcons style={{color:"white"}}/>}>
+        <span>Autre</span>
+        </AccordionSummary>
+        <AccordionDetails>
+        <span>Figma, VBA</span>
         </AccordionDetails>
       </Accordion>
     </div>
