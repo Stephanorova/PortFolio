@@ -19,7 +19,7 @@ const Email = () => {
 
   const sendEmail = (e)=>{
     e.preventDefault()
-    const send =  emailjs.sendForm('service_5vthth8','template_ljwm4ba' ,form.current,'-j8EWZPX-ELv_LlmQ')
+    const send =  emailjs.sendForm('service_bs22p5j','template_rxb6ttx' ,form.current,'goflVDn8UP0myT3qG')
     .then((result) => {
       console.log(result.text);
       window.location.reload(true)
@@ -49,13 +49,13 @@ const Email = () => {
     <form ref={form} onSubmit={sendEmail} className='form'>
         <ul>
               <li>
-            <input type="text"  onChange={(e)=>setSaisire({...saisir, nom:e.target.value})} placeholder='votre nom' />
+            <input type="text" name='user_name' onChange={(e)=>setSaisire({...saisir, nom:e.target.value})} placeholder='votre nom' />
             </li>
             <li>  
-            <input type="email"  onChange={(e)=>setSaisire({...saisir, email:e.target.value})} placeholder='votre email' />    
+            <input type="email" name='user_email'  onChange={(e)=>setSaisire({...saisir, email:e.target.value})} placeholder='votre email' />    
             </li>  
             <li>
-            <textarea type="text"  onChange={(e)=>setSaisire({...saisir, message:e.target.value})} placeholder='message' />  
+            <textarea type="text" name='message' onChange={(e)=>setSaisire({...saisir, message:e.target.value})} placeholder='message' />  
             </li>
             <li>
             <input type="submit" value='Envoyer' className='button'/>
