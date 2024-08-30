@@ -3,7 +3,7 @@ import GithubIcons from "@mui/icons-material/GitHub"
 import LinkedInIcons from "@mui/icons-material/LinkedIn"
 import MailIcons from "@mui/icons-material/Mail"
 import FacebookIcons from "@mui/icons-material/Facebook"
-import rovaniaina from "./Stephano.pdf"
+import rovaniaina from "./Stephano cv.pdf"
 import './animation.scss'
 import { useState } from 'react'
 import Footer from './Footer'
