@@ -44,8 +44,8 @@
 }
 .url{
     position: relative;
-    bottom: 0.5rem;
-    font-size: 15px;
+    top: -1.2rem;
+    font-size: 12px;
 
 }
 .data{
