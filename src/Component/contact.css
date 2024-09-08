@@ -84,6 +84,12 @@
         animation-fill-mode: forwards;
         color: gray;
     }
+    .url{
+    position: relative;
+    top: -1.2rem;
+    font-size: 12px;
+
+}
    
 }
 .retour{
@@ -140,5 +146,11 @@
     cursor: pointer;
     animation: fadeIn 1s 1s;
     animation-fill-mode: forwards;
+}
+.url{
+    position: relative;
+    top: -0.95rem;
+    font-size: 10px;
+
 }
 }
